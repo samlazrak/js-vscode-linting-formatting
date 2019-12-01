@@ -14,13 +14,13 @@ app.listen(3000, () => {
 const obj = {
   hello: function() {
     console.log('hello');
-  }
+  },
 };
 
 const objtwo = {
   hello() {
     console.log('hello');
-  }
+  },
 };
 
 class A {
