@@ -5,7 +5,8 @@
         "node": true
     },
     "extends": [
-        "airbnb-base"
+        "airbnb-base",
+        "plugin:prettier/recommended"
     ],
     "globals": {
         "Atomics": "readonly",
@@ -16,5 +17,6 @@
         "sourceType": "module"
     },
     "rules": {
+        "no-console": "off",
     }
 }
